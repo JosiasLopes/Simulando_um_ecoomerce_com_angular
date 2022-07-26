@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+}
+.body-content {
+  min-height: 100%;
+  /* igual a altura do rodapé */
+  
+}
+.body-content:after {
+  content: "";
+  display: block;
+}
